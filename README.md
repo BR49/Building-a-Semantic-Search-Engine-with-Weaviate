@@ -26,11 +26,13 @@ Flask (optional for API)
 Clone the repository:
 
 git clone https://github.com/br49/semantic-search-weaviate.git
+
 cd semantic-search-weaviate
 
 Install dependencies:
 
 pip install -r requirements.txt
+
 Download the arXiv dataset from Kaggle and place it in the project directory.
 
 Ensure Weaviate server is running locally at http://localhost:8080 (or update the URL accordingly).
@@ -55,8 +57,11 @@ Recall: 0.75
 F1 Score: 0.75
 
 # Insights
+
 Accuracy: The search engine achieved balanced precision and recall, indicating effective performance.
+
 Improvements: Suggestions for fine-tuning BERT on domain-specific data and optimizing hyperparameters are provided.
+
 Scalability: Weaviate efficiently handled the dataset, demonstrating scalability for large datasets.
 
 # Conclusion
