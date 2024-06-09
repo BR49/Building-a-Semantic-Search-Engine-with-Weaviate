@@ -23,6 +23,7 @@ The front end is built with Next.js and Tailwind CSS, and data visualizations ar
 
 1. Clone the repository:
    ```sh
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/BR49/Building-a-Semantic-Search-Engine-with-Weaviate.git
+   
+   cd job-engine
 
