@@ -4,8 +4,11 @@ This project aims to build a semantic search engine using Weaviate, leveraging B
 
 # Features
 Semantic Search: Find documents based on semantic similarity rather than keyword matching.
+
 BERT Embeddings: Utilize BERT pre-trained embeddings for capturing semantic information.
+
 Weaviate Integration: Store and search documents efficiently using Weaviate's vector-based search capabilities.
+
 Scalability: Demonstrates scalability for handling large datasets.
 
 # Requirements
@@ -42,7 +45,9 @@ Evaluation metrics such as precision, recall, and F1 score are calculated in eva
 
 # Results
 Precision: 0.75
+
 Recall: 0.75
+
 F1 Score: 0.75
 
 # Insights
