@@ -1,0 +1,86 @@
+{
+  "classes": [
+    {
+      "class": "JobPosting",
+      "description": "A job posting from LinkedIn",
+      "properties": [
+        {
+          "name": "title",
+          "description": "Job title",
+          "dataType": [
+            "text"
+          ]
+        },
+        {
+          "name": "company",
+          "description": "Company offering the job",
+          "dataType": [
+            "text"
+          ]
+        },
+        {
+          "name": "location",
+          "description": "Location of the job",
+          "dataType": [
+            "text"
+          ]
+        },
+        {
+          "name": "description",
+          "description": "Job description",
+          "dataType": [
+            "text"
+          ]
+        },
+        {
+          "name": "postedDate",
+          "description": "Date the job was posted",
+          "dataType": [
+            "date"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "UserProfile",
+      "description": "User profile data",
+      "properties": [
+        {
+          "name": "name",
+          "description": "User's name",
+          "dataType": [
+            "text"
+          ]
+        },
+        {
+          "name": "email",
+          "description": "User's email",
+          "dataType": [
+            "text"
+          ]
+        },
+        {
+          "name": "skills",
+          "description": "Skills of the user",
+          "dataType": [
+            "text[]"
+          ]
+        },
+        {
+          "name": "experience",
+          "description": "User's job experience",
+          "dataType": [
+            "text"
+          ]
+        },
+        {
+          "name": "preferences",
+          "description": "Job preferences",
+          "dataType": [
+            "text[]"
+          ]
+        }
+      ]
+    }
+  ]
+}
