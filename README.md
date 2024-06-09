@@ -12,10 +12,14 @@ Weaviate Integration: Store and search documents efficiently using Weaviate's ve
 Scalability: Demonstrates scalability for handling large datasets.
 
 # Requirements
+
 Python 3.x
+
 Transformers library (for BERT embeddings)
 Pandas
+
 Weaviate Python client
+
 Flask (optional for API)
 
 # Installation
