@@ -25,7 +25,7 @@ Flask (optional for API)
 # Installation
 Clone the repository:
 
-git clone https://github.com/br49/semantic-search-weaviate.git
+git clone https://github.com/BR49/Building-a-Semantic-Search-Engine-with-Weaviate.git
 
 cd semantic-search-weaviate
 
