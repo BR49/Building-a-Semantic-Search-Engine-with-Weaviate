@@ -84,26 +84,6 @@ npm run dev
 - **Get Job Recommendations**:
 - Based on user skills, receive personalized job suggestions.
 
-## Project Structure
-.
-├── components
-│   └── BarChart.js
-├── pages
-│   ├── api
-│   │   ├── recommendations.js
-│   │   ├── profile.js
-│   │   └── dashboard.js
-│   ├── dashboard.js
-│   └── profile.js
-├── public
-│   └── ...
-├── styles
-│   └── globals.css
-├── airflow_dag.py
-├── docker-compose.yml
-├── import_data.py
-├── recommendation.py
-└── README.md
 
 
 ## API Endpoints
