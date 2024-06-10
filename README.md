@@ -27,3 +27,30 @@ The front end is built with Next.js and Tailwind CSS, and data visualizations ar
    
    cd job-engine
 
+Weaviate Setup
+Start Weaviate with Docker:
+```sh
+docker-compose down
+```
+
+Import Job Postings Data:
+
+Ensure you have a dataset (e.g., linkedin_job_postings.csv).
+Run the data import script:
+
+```sh
+pip install weaviate-client pandas
+python import.py
+```
+
+
+
+
+
+
+
+
+
+
+
+
